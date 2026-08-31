@@ -3,3 +3,11 @@
 node_modules/
 .env
 .env.*
+.gstack/
+index.html.*
+*.bak
+
+# Carries 8 referees' personal mobiles and Gmail addresses (Letters of Recommendation).
+# Their data, not his to publish. Never commit, never deploy.
+Shreshth-Agarwal-CV.html
+Shreshth-Agarwal-CV.pdf

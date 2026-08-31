@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://shreshthaggarwal.com/sitemap.xml
+Sitemap: https://shreshthagarwal.com/sitemap.xml

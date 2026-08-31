@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Shreshth Agarwal — CV</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;500;600;700&family=Geist:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+@page{size:A4;margin:8mm 10mm 7mm 10mm}
+:root{
+  --paper:#faf7f1;
+  --ink:#171717;
+  --ink-2:#413a30;
+  --ink-3:#7a6f60;
+  --amber:#d4873f;
+  --amber-deep:#b56d28;
+  --tint:#f2ecdf;
+  --line:rgba(23,23,23,0.14);
+}
+html,body{background:var(--paper);color:var(--ink);font-family:'Geist',sans-serif;font-size:8.6pt;line-height:1.35;-webkit-font-smoothing:antialiased}
+.page{max-width:200mm;margin:0 auto}
+
+/* Header */
+.hdr{border-bottom:2px solid var(--ink);padding-bottom:7px;margin-bottom:8px}
+.name{font-family:'Fraunces',serif;font-size:28pt;font-weight:600;line-height:0.95;letter-spacing:-0.025em}
+.tag{font-family:'Fraunces',serif;font-style:italic;color:var(--amber-deep);font-size:10.5pt;margin-top:3px;letter-spacing:-0.005em}
+.tag .bar{color:var(--ink-3);margin:0 5px;font-style:normal}
+.contact{display:flex;flex-wrap:wrap;gap:2px 12px;margin-top:6px;font-family:'JetBrains Mono',monospace;font-size:7.2pt;color:var(--ink-2);letter-spacing:0.1px}
+.contact span{position:relative;padding-right:12px}
+.contact span:not(:last-child)::after{content:'·';position:absolute;right:2px;color:var(--ink-3)}
+
+/* Sections */
+.section{margin-top:5px;break-inside:avoid;page-break-inside:avoid}
+.sec-title{font-family:'Fraunces',serif;font-weight:600;color:var(--ink);padding-bottom:2px;border-bottom:1px solid var(--line);margin-bottom:5px;text-transform:uppercase;font-size:9pt;letter-spacing:0.08em}
+.sec-title .accent{color:var(--amber-deep)}
+
+/* Row layout */
+.row{margin-bottom:3px}
+.row:last-child{margin-bottom:0}
+.row-head{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.role{font-weight:600;color:var(--ink);font-size:9pt;line-height:1.2}
+.when{font-family:'JetBrains Mono',monospace;font-size:7pt;color:var(--ink-3);white-space:nowrap;letter-spacing:0.1px}
+.org{font-style:italic;color:var(--ink-2);font-size:8pt;margin-top:0px;line-height:1.28}
+.desc{color:var(--ink-2);font-size:8.4pt;margin-top:2px;line-height:1.4}
+.desc strong{color:var(--ink);font-weight:600}
+.desc .num{font-family:'JetBrains Mono',monospace;font-weight:500;color:var(--ink)}
+.desc ul{padding-left:13px;margin-top:1px}
+.desc li{margin-bottom:0}
+
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.three-col{display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px}
+
+/* Snapshot */
+.snapshot-lead{color:var(--ink-2);font-size:8.6pt;line-height:1.4;margin-bottom:6px}
+.snapshot-lead strong{color:var(--ink);font-weight:600}
+.stat-strip{display:grid;grid-template-columns:repeat(5,1fr);gap:6px}
+.stat{padding:6px 8px;background:var(--tint);border-radius:3px;text-align:left;border-left:2px solid var(--amber)}
+.stat-num{font-family:'Fraunces',serif;font-weight:600;font-size:12pt;color:var(--amber-deep);line-height:1;letter-spacing:-0.01em}
+.stat-lbl{font-size:6.5pt;color:var(--ink-3);margin-top:2px;font-family:'JetBrains Mono',monospace;letter-spacing:0.2px;line-height:1.15}
+
+/* Rooms compact grid */
+.rooms-grid{display:grid;grid-template-columns:1fr 1fr;gap:2px 16px}
+.room-item{font-size:8pt;line-height:1.32;color:var(--ink-2);padding:0}
+.room-item .room-name{color:var(--ink);font-weight:600}
+.room-item .room-meta{color:var(--ink-3);font-family:'JetBrains Mono',monospace;font-size:6.8pt}
+
+/* Community + family compact */
+.compact-line{font-size:8pt;line-height:1.38;color:var(--ink-2);margin-bottom:2px}
+.compact-line strong{color:var(--ink);font-weight:600}
+.compact-line .meta{font-family:'JetBrains Mono',monospace;color:var(--ink-3);font-size:6.8pt}
+
+.foot{margin-top:7px;padding-top:5px;border-top:1px solid var(--line);font-family:'JetBrains Mono',monospace;font-size:6.5pt;color:var(--ink-3);text-align:center;letter-spacing:0.3px}
+</style>
+</head>
+<body>
+<div class="page">
+
+<div class="hdr">
+  <div class="name">Shreshth Agarwal</div>
+  <div class="tag">Founder<span class="bar">|</span>Hub4Estate<span class="bar">|</span>Orizza + Frost<span class="bar">|</span>12thies_Only</div>
+  <div class="contact">
+    <span>shreshth.agarwal@hub4estate.com</span>
+    <span>+91 76900 01999</span>
+    <span>linkedin.com/in/sa-h4e</span>
+    <span>shreshthagarwal.com</span>
+    <span>calendly.com/shreshth-agarwal-hub4estate/hub4estate</span>
+  </div>
+</div>
+
+<div class="section">
+  <div class="sec-title"><span class="accent">Snapshot</span></div>
+  <div class="snapshot-lead">18. Second-generation Baniya business family, Sri Ganganagar &rarr; Bangalore. Building <strong>Hub4Estate</strong> &mdash; a DPIIT-recognised sealed-bid procurement service for construction materials. Parallel operator: <strong>Orizza</strong> (imitation jewellery, 262 SKUs, live), <strong>Frost by Orizza</strong> (925/999 hallmarked silver), and <strong>12thies_Only</strong> (400+ student families). Five ventures, five years.</div>
+
+  <div class="stat-strip">
+    <div class="stat"><div class="stat-num">10+</div><div class="stat-lbl">paying clients</div></div>
+    <div class="stat"><div class="stat-num">&#8377;7L+</div><div class="stat-lbl">net profit &middot; 3 mo</div></div>
+    <div class="stat"><div class="stat-num">13.4%</div><div class="stat-lbl">blended below retail</div></div>
+    <div class="stat"><div class="stat-num">36.7%</div><div class="stat-lbl">peak deal savings</div></div>
+    <div class="stat"><div class="stat-num">3</div><div class="stat-lbl">brands live</div></div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="sec-title"><span class="accent">Currently</span> Building</div>
+
+  <div class="row">
+    <div class="row-head"><div class="role">Founder &amp; CEO &middot; Hub4Estate</div><div class="when">Mar 2026 &mdash; Present</div></div>
+    <div class="org">HUB4ESTATE LLP &middot; LLPIN ACW-4269 &middot; DPIIT-recognised &middot; Transitioning to Hub4Estate India Pvt Ltd</div>
+    <div class="desc">
+      Sealed-bid procurement service for construction materials. Buyer posts a requirement, verified dealers submit blind quotes, best price wins, contact revealed only after selection. Started with electricals &mdash; category-agnostic engine.
+      <ul>
+        <li><span class="num">10+</span> paying pilot clients across Hisar, Jaipur, Delhi. <span class="num">&#8377;7L+</span> net profit in three months on the manual model.</li>
+        <li><span class="num">13.4%</span> blended savings below retail; up to <span class="num">36.7%</span> on flagship deals (Sony LED Panel, Sony Speaker, Philips 200 LEDs, FRLS Cable 200m).</li>
+        <li>Every request becomes a permanent DB entry: pricing intelligence compounds with every deal.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="row-head"><div class="role">Founder &middot; Orizza + Frost</div><div class="when">Jun 2026 &mdash; Present</div></div>
+    <div class="org">Orizza Private Limited &middot; GST 08AAFCO2259P1ZV &middot; PAN AAFCO2259P</div>
+    <div class="desc">Orizza is a high-end imitation jewellery house with <span class="num">262</span> SKUs, launched online within a month of build. Frost by Orizza is the silver sub-brand &mdash; 925/999 hallmark-certified brooches, cufflinks, buttons, and jewellery. Store openings queued.</div>
+  </div>
+
+  <div class="row">
+    <div class="row-head"><div class="role">Founder &middot; 12thies_Only</div><div class="when">2024 &mdash; Present</div></div>
+    <div class="org">Youth-led community for Class 12 students &middot; still active</div>
+    <div class="desc"><span class="num">400+</span> student families in network. Organised &lsquo;Exit Code&rsquo; event with <span class="num">200+</span> students. Run club active, donations flowing, <span class="num">200+</span> trees planted.</div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="sec-title"><span class="accent">Past</span> Ventures</div>
+  <div class="row">
+    <div class="row-head"><div class="role">Treva Iconic Jewels &middot; Founder</div><div class="when">2022 &mdash; 2024</div></div>
+    <div class="org">D2C jewellery brand, closed 2024</div>
+    <div class="desc">Built and operated end-to-end for a full year &mdash; sourcing, branding, fulfilment, customer service. Wound down due to a partner issue. Every lesson from that failure shaped how Orizza and Frost are structured today.</div>
+  </div>
+  <div class="row">
+    <div class="row-head"><div class="role">UAE / Dubai Dropshipping &middot; Owner-operator</div><div class="when">2020 &middot; Age 15</div></div>
+    <div class="desc">Built an international dropshipping operation from Class 9. Self-funded first iPhone and MacBook with the profit.</div>
+  </div>
+  <div class="row">
+    <div class="row-head"><div class="role">Structured Hedging Portfolio &middot; Independently built</div><div class="when">2021 &middot; Age 16</div></div>
+    <div class="desc">Not tips, not speculation &mdash; actual hedging and capital management, built through discipline. Still runs my founder finance today.</div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="sec-title"><span class="accent">Education</span></div>
+  <div class="row">
+    <div class="row-head"><div class="role">MESA School of Business, Bangalore &middot; Founder&rsquo;s Batch (Cohort 1)</div><div class="when">2025 &mdash; 2029</div></div>
+    <div class="org">Undergraduate Founder&rsquo;s Program &middot; dual degree with NMIMS</div>
+  </div>
+  <div class="row">
+    <div class="row-head"><div class="role">NMIMS &middot; BBA (Finance)</div><div class="when">2025 &mdash; 2029</div></div>
+    <div class="org">Dean&rsquo;s Meritorious List &middot; BBA Finance</div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="sec-title"><span class="accent">Family</span> Business Leadership &middot; <span style="font-weight:400;color:var(--ink-3);text-transform:none;letter-spacing:0;font-family:Geist">running verticals since age 13</span></div>
+  <div class="two-col">
+    <div>
+      <div class="compact-line"><strong>Aggarwal Agro Industries &amp; Warehousing</strong> &middot; warehousing, agri-stock trading, logistics.</div>
+      <div class="compact-line"><strong>M/s Sadhu Ram Sanjay Kumar</strong> &middot; agri-trading &amp; commodities; supply-chain P&amp;L.</div>
+      <div class="compact-line"><strong>Ganpati Mangla Multitrade Pvt Ltd</strong> &middot; Jack &amp; Jones / Only / Vero Moda franchises in Tier-3.</div>
+    </div>
+    <div>
+      <div class="compact-line"><strong>Family Jewellery Showroom</strong> &middot; managed shop-floor and clientele since age 13.</div>
+      <div class="compact-line"><strong>Family Real Estate &amp; Construction Arm</strong> &middot; site-level oversight; where the Hub4Estate thesis was born.</div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="sec-title"><span class="accent">Rooms</span> I&rsquo;ve Been In</div>
+  <div class="rooms-grid">
+    <div class="room-item"><span class="room-name">Elevation Capital &mdash; Pitch</span> &middot; Manish Advani (Partner) + Rohan Kohli. <span class="room-meta">2026</span></div>
+    <div class="room-item"><span class="room-name">iDAC Expo Mumbai + IIT Bombay</span> &middot; flew in within 12 hrs. <span class="room-meta">Mar 2026</span></div>
+    <div class="room-item"><span class="room-name">IIT Delhi &mdash; Top 5 of 160 Teams</span> &middot; ahead of 155 engineering teams. <span class="room-meta">2025</span></div>
+    <div class="room-item"><span class="room-name">Wharton Global HS Investment Comp</span> &middot; team leader, 17% return / $100K. <span class="room-meta">2024</span></div>
+    <div class="room-item"><span class="room-name">TETR D2C Founder Connect</span> &middot; Bharat Sethi, Aman Arora, Vikas Bagaria, Sidhant Keshwani. <span class="room-meta">Jan 2025</span></div>
+    <div class="room-item"><span class="room-name">TechSparks 2024</span> &middot; 1-on-1 Shradha Sharma; met Nithin Kamath, Ronnie Screwvala, Naveen Tewari.</div>
+    <div class="room-item"><span class="room-name">SMC Summit Jaipur</span> &middot; met Ritesh Agarwal (OYO), Ashneer Grover. <span class="room-meta">May 2024</span></div>
+    <div class="room-item"><span class="room-name">Masters&rsquo; Union Startup Week</span> &middot; team leader out of 78 students. <span class="room-meta">2024</span></div>
+    <div class="room-item"><span class="room-name">YourStory Interview</span> &middot; Shradha Sharma sit-down.</div>
+    <div class="room-item"><span class="room-name">State Badminton, U-17</span> &middot; 3rd place, District. <span class="room-meta">2019</span></div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="sec-title"><span class="accent">Community</span></div>
+  <div class="two-col">
+    <div>
+      <div class="compact-line"><strong>Rotary Club Sri Ganganagar</strong> &middot; raised <span class="num">&#8377;10L</span> for COVID-19 relief; blood-donation drives and medical camps.</div>
+      <div class="compact-line"><strong>Tapovan Trust</strong> &middot; drug-awareness campaigns and youth mentorship.</div>
+    </div>
+    <div>
+      <div class="compact-line"><strong>Robinhood Organisation</strong> &middot; weekly support to underprivileged students near railway stations &mdash; food, education, birthdays.</div>
+      <div class="compact-line"><strong>NSRCEL Launchpad</strong> &middot; application submitted. <strong>PGP Bharat</strong> &middot; interview held. <strong>Campus Founders Cohort 6</strong> &middot; applied.</div>
+    </div>
+  </div>
+</div>
+
+<div class="foot">
+  References, letters of recommendation, financials, and pitch deck available on request &middot; shreshthagarwal.com &middot; hub4estate.com
+</div>
+
+</div>
+</body>
+</html>

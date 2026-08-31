@@ -1,10 +1,10 @@
 #!/bin/bash
-# Deploy shreshthaggarwal.com to AWS S3 + CloudFront
+# Deploy shreshthagarwal.com to AWS S3 + CloudFront
 # Run: chmod +x deploy.sh && ./deploy.sh
 
 set -e
 
-BUCKET_NAME="shreshthaggarwal.com"
+BUCKET_NAME="shreshthagarwal.com"
 REGION="ap-south-1"
 
 echo "==> Creating S3 bucket..."
@@ -43,6 +43,7 @@ aws s3 sync . "s3://$BUCKET_NAME" \
   --exclude "deploy.sh" \
   --exclude ".DS_Store" \
   --exclude "*.md" \
+  --exclude "Shreshth-Agarwal-CV*" \
   --cache-control "public, max-age=3600" \
   --delete
 
@@ -67,7 +68,7 @@ echo "==> Done! Site uploaded to S3."
 echo ""
 echo "Next steps:"
 echo "1. Create CloudFront distribution pointing to: $BUCKET_NAME.s3-website.$REGION.amazonaws.com"
-echo "2. Request ACM certificate for shreshthaggarwal.com (must be in us-east-1 for CloudFront)"
+echo "2. Request ACM certificate for shreshthagarwal.com (must be in us-east-1 for CloudFront)"
 echo "3. Point domain DNS to CloudFront distribution"
 echo "4. Add response headers policy in CloudFront with security headers"
 echo ""

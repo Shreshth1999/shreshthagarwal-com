@@ -1,3 +1,3 @@
 Contact: mailto:shreshth.agarwal@hub4estate.com
 Preferred-Languages: en
-Canonical: https://shreshthaggarwal.com/.well-known/security.txt
+Canonical: https://shreshthagarwal.com/.well-known/security.txt
